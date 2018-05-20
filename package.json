@@ -1,0 +1,19 @@
+{
+  "fitbit": {
+    "appUUID": "df61657b-9544-4d67-b589-1b010d8deb57",
+    "appType": "app",
+    "appDisplayName": "FinFit-Demo",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "FinFit-Demo"
+      }
+    }
+  }
+}

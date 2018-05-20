@@ -1,0 +1,44 @@
+<svg height="100%">
+  
+  
+  <text y="20%" fill="fb-white" id="s1title">Your Daily Budget: $20.00</text>
+  <text x= "15%"y="40%" fill="fb-cyan" id="s1budget" font-family="Colfax-Bold">Today's Budget:</text>
+  <text y="60%" x="34%" fill="fb-cyan" id="s1num" font-family="Colfax-Bold">$20.00</text>
+  <use id="mybutton" href="#square-button" y="70%" fill="fb-white">
+    <set href="#text" attributeName="text-buffer" to="Make Purchase" />
+  </use>
+  
+  
+  <text x="15%" y="15%" fill="fb-white" id="s2title">Price of Purchase:</text>
+  <text width="200%"x="35%" y="50%" fill="red" id="s2price" fill="springgreen" font-family="Colfax-Bold">$25.00</text>
+  <use id="pricebutton" href="#square-button" y="70%" fill="springgreen">
+    <set href="#text" attributeName="text-buffer" to="Enter" />
+  </use>
+  
+  
+ <text x="25%" y="15%" fill="red" font-family="Colfax-Medium" id="overtitle">Over Budget!</text>
+  <text x="15%" y="50%" fill="red" id="overamount">Impact: $18.80/Day</text>
+  
+  <use id="btnLeft" class="dialog-half-button-left" href="#square-button-neutral">
+    <set href="#text" attributeName="text-buffer" to="Save" />
+    <set href="#text" attributeName="text-anchor" to="middle" />
+  </use>
+
+  <!-- Right button -->
+  <use id="btnRight" class="dialog-half-button-right" href="#square-button-negative">
+    <set href="#text" attributeName="text-buffer" to="Buy" />
+    <set href="#text" attributeName="text-anchor" to="middle" />
+  </use>
+  
+  <text y="20%" fill="fb-white" id="lasttitle">Your Daily Budget: $18.80</text>
+  <text x= "15%"y="40%" fill="fb-cyan" id="lastbudget" font-family="Colfax-Bold">Today's Budget:</text>
+  <text y="60%" x="34%" fill="fb-cyan" id="lastnum" font-family="Colfax-Bold">$ 0.00</text>
+  <use id="makenextpurchase" href="#square-button" y="70%" fill="fb-white">
+     <set href="#text" attributeName="text-buffer" to="Make Purchase" />
+  </use>
+  
+  <text y="20%" fill="fb-white" id="rejecttitle">Your Daily Budget: $20.00</text>
+  <text x= "15%"y="40%" fill="fb-cyan" id="rejectbudget" font-family="Colfax-Bold">Today's Budget:</text>
+  <text y="60%" x="34%" fill="fb-cyan" id="rejectnum" font-family="Colfax-Bold">$ 20.00</text>
+  
+</svg>
